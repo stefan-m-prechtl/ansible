@@ -1,0 +1,10 @@
+---
+- hosts: all
+  tasks:
+    - name: 'Demo-Ausgaben via debug'
+      debug: msg="Hello from Ansible"
+      tags: hello
+
+    - name: 'Demo-Ausgaben via debug'
+      debug: msg="Bye from Ansible"
+      tags: bye

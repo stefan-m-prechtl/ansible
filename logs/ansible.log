@@ -1,0 +1,344 @@
+2025-05-12 13:34:34,031 p=10607 u=etienne n=ansible INFO| workstation1 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host workstation1 port 22: Connection timed out",
+    "unreachable": true
+}
+2025-05-12 13:35:06,623 p=11023 u=etienne n=ansible INFO| workstation1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.13"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-05-12 13:38:12,887 p=12030 u=etienne n=ansible INFO| workstation1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.13"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-05-12 13:38:19,748 p=12203 u=etienne n=ansible INFO| workstation1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.13"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-05-12 13:39:49,248 p=12725 u=etienne n=ansible INFO| workstation1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.13"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-05-12 13:41:34,206 p=13435 u=etienne n=ansible INFO| server | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.13"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-05-12 13:41:34,207 p=13435 u=etienne n=ansible INFO| workstation1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.13"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-05-12 13:43:26,751 p=14117 u=etienne n=ansible INFO| workstation1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.13"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-05-12 13:44:46,314 p=14608 u=etienne n=ansible INFO| workstation1 | FAILED | rc=1 >>
+non-zero return code
+
+2025-05-12 13:47:04,074 p=15449 u=etienne n=ansible INFO| workstation1 | FAILED | rc=-1 >>
+Missing sudo password
+
+2025-05-12 13:47:52,561 p=15767 u=etienne n=ansible INFO| workstation1 | FAILED | rc=-1 >>
+Missing sudo password
+
+2025-05-12 13:48:02,765 p=15868 u=etienne n=ansible INFO| workstation1 | FAILED | rc=-1 >>
+Missing sudo password
+
+2025-05-12 13:49:17,231 p=16413 u=etienne n=ansible INFO| workstation1 | FAILED | rc=-1 >>
+Missing sudo password
+
+2025-05-12 13:49:46,118 p=16627 u=etienne n=ansible INFO| workstation1 | FAILED | rc=-1 >>
+Missing sudo password
+
+2025-05-12 13:50:50,573 p=16932 u=etienne n=ansible INFO| workstation1 | FAILED | rc=-1 >>
+Missing sudo password
+
+2025-05-12 13:50:53,547 p=17096 u=etienne n=ansible INFO| workstation1 | FAILED | rc=-1 >>
+Missing sudo password
+
+2025-05-12 13:51:01,657 p=17175 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 >>
+
+
+2025-05-12 13:53:02,937 p=17893 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3       930G  5.8G  921G   1% /
+
+2025-05-12 13:53:51,192 p=18203 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3       930G  5.8G  921G   1% /
+
+2025-05-12 13:53:52,205 p=18245 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3       930G  5.8G  921G   1% /
+
+2025-05-12 13:54:54,991 p=18617 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 | (stdout) 291
+2025-05-12 13:55:26,523 p=18842 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 | (stdout) 292
+2025-05-12 13:57:18,971 p=19462 u=etienne n=ansible INFO| workstation1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.13"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-05-12 13:57:23,691 p=19462 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 >>
+Desktop
+Documents
+Downloads
+Firefox_wallpaper.png
+Music
+Pictures
+Public
+Templates
+Videos
+
+2025-05-12 13:57:34,876 p=19462 u=etienne n=ansible WARNING| [WARNING]: Could not match supplied host pattern, ignoring: Download
+
+2025-05-12 13:57:34,876 p=19462 u=etienne n=ansible INFO| no host matched
+2025-05-12 13:57:36,985 p=19462 u=etienne n=ansible WARNING| [WARNING]: Could not match supplied host pattern, ignoring: Downloads
+
+2025-05-12 13:57:36,985 p=19462 u=etienne n=ansible INFO| no host matched
+2025-05-12 13:57:48,594 p=19462 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 >>
+
+
+2025-05-12 13:57:57,880 p=19462 u=etienne n=ansible INFO| workstation1 | FAILED | rc=127 >>
+/bin/sh: line 1: ls ./Downloads: No such file or directorynon-zero return code
+
+2025-05-12 13:58:06,420 p=19462 u=etienne n=ansible INFO| workstation1 | FAILED | rc=127 >>
+/bin/sh: line 1: ls Downloads: command not foundnon-zero return code
+
+2025-05-12 13:58:10,936 p=19462 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 >>
+
+
+2025-05-12 13:58:17,663 p=19462 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 >>
+Desktop
+Documents
+Downloads
+Firefox_wallpaper.png
+Music
+Pictures
+Public
+Templates
+Videos
+
+2025-05-12 13:58:24,190 p=19462 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 >>
+
+
+2025-05-12 13:58:53,582 p=19462 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 >>
+
+
+2025-05-12 13:58:56,256 p=19462 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 >>
+Desktop
+Documents
+Downloads
+Firefox_wallpaper.png
+Music
+Pictures
+Public
+Templates
+Videos
+
+2025-05-12 13:59:11,205 p=19462 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 >>
+
+
+2025-05-12 14:02:17,308 p=21519 u=etienne n=ansible INFO| workstation1 | FAILED! => {"msg": "Incorrect sudo password"}
+2025-05-12 14:02:34,778 p=21704 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 | (stdout) 255
+2025-05-12 14:03:42,559 p=22141 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 | (stdout) 255
+2025-05-12 14:03:54,130 p=22252 u=etienne n=ansible INFO| workstation1 | CHANGED | rc=0 | (stdout) 255
+2025-05-12 14:08:41,292 p=23971 u=etienne n=ansible INFO| PLAY [localhost] *****************************************************************************************************************************************
+2025-05-12 14:08:41,295 p=23971 u=etienne n=ansible INFO| TASK [Gathering Facts] ***********************************************************************************************************************************
+2025-05-12 14:08:42,211 p=23971 u=etienne n=ansible INFO| ok: [localhost]
+2025-05-12 14:08:42,214 p=23971 u=etienne n=ansible INFO| TASK [debug] *********************************************************************************************************************************************
+2025-05-12 14:08:42,222 p=23971 u=etienne n=ansible INFO| ok: [localhost] => {
+    "msg": "Hello from Ansible"
+}
+2025-05-12 14:08:42,223 p=23971 u=etienne n=ansible INFO| PLAY RECAP ***********************************************************************************************************************************************
+2025-05-12 14:08:42,223 p=23971 u=etienne n=ansible INFO| localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-05-12 14:09:56,197 p=24481 u=etienne n=ansible INFO| PLAY [all] ***********************************************************************************************************************************************
+2025-05-12 14:09:56,200 p=24481 u=etienne n=ansible INFO| TASK [Gathering Facts] ***********************************************************************************************************************************
+2025-05-12 14:10:06,226 p=24481 u=etienne n=ansible INFO| fatal: [workstation1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host workstation1 port 22: Connection timed out", "unreachable": true}
+2025-05-12 14:10:06,227 p=24481 u=etienne n=ansible INFO| PLAY RECAP ***********************************************************************************************************************************************
+2025-05-12 14:10:06,227 p=24481 u=etienne n=ansible INFO| workstation1               : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2025-05-12 14:10:13,122 p=24628 u=etienne n=ansible INFO| PLAY [all] ***********************************************************************************************************************************************
+2025-05-12 14:10:13,125 p=24628 u=etienne n=ansible INFO| TASK [Gathering Facts] ***********************************************************************************************************************************
+2025-05-12 14:10:14,467 p=24628 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:10:14,472 p=24628 u=etienne n=ansible INFO| TASK [debug] *********************************************************************************************************************************************
+2025-05-12 14:10:14,481 p=24628 u=etienne n=ansible INFO| ok: [workstation1] => {
+    "msg": "Hello from Ansible"
+}
+2025-05-12 14:10:14,482 p=24628 u=etienne n=ansible INFO| PLAY RECAP ***********************************************************************************************************************************************
+2025-05-12 14:10:14,482 p=24628 u=etienne n=ansible INFO| workstation1               : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-05-12 14:11:22,023 p=25048 u=etienne n=ansible INFO| PLAY [all] ***********************************************************************************************************************************************
+2025-05-12 14:11:22,028 p=25048 u=etienne n=ansible INFO| TASK [Gathering Facts] ***********************************************************************************************************************************
+2025-05-12 14:11:23,383 p=25048 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:11:23,386 p=25048 u=etienne n=ansible INFO| TASK [Demo-Ausgaben via debug] ***************************************************************************************************************************
+2025-05-12 14:11:23,392 p=25048 u=etienne n=ansible INFO| ok: [workstation1] => {
+    "msg": "Hello from Ansible"
+}
+2025-05-12 14:11:23,393 p=25048 u=etienne n=ansible INFO| PLAY RECAP ***********************************************************************************************************************************************
+2025-05-12 14:11:23,393 p=25048 u=etienne n=ansible INFO| workstation1               : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-05-12 14:14:17,550 p=26017 u=etienne n=ansible INFO| PLAY [all] ***********************************************************************************************************************************************
+2025-05-12 14:14:17,554 p=26017 u=etienne n=ansible INFO| TASK [Gathering Facts] ***********************************************************************************************************************************
+2025-05-12 14:14:18,897 p=26017 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:14:18,900 p=26017 u=etienne n=ansible INFO| TASK [Demo-Ausgaben via debug] ***************************************************************************************************************************
+2025-05-12 14:14:18,909 p=26017 u=etienne n=ansible INFO| ok: [workstation1] => {
+    "msg": "Hello from Ansible"
+}
+2025-05-12 14:14:18,910 p=26017 u=etienne n=ansible INFO| PLAY RECAP ***********************************************************************************************************************************************
+2025-05-12 14:14:18,910 p=26017 u=etienne n=ansible INFO| workstation1               : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-05-12 14:14:32,238 p=26137 u=etienne n=ansible INFO| PLAY [all] ***********************************************************************************************************************************************
+2025-05-12 14:14:32,241 p=26137 u=etienne n=ansible INFO| TASK [Gathering Facts] ***********************************************************************************************************************************
+2025-05-12 14:14:34,411 p=26137 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:14:34,414 p=26137 u=etienne n=ansible INFO| TASK [Demo-Ausgaben via debug] ***************************************************************************************************************************
+2025-05-12 14:14:34,426 p=26137 u=etienne n=ansible INFO| ok: [workstation1] => {
+    "msg": "Hello from Ansible"
+}
+2025-05-12 14:14:34,426 p=26137 u=etienne n=ansible INFO| PLAY RECAP ***********************************************************************************************************************************************
+2025-05-12 14:14:34,426 p=26137 u=etienne n=ansible INFO| workstation1               : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-05-12 14:14:57,180 p=26314 u=etienne n=ansible INFO| PLAY [all] ***********************************************************************************************************************************************
+2025-05-12 14:14:57,184 p=26314 u=etienne n=ansible INFO| TASK [Gathering Facts] ***********************************************************************************************************************************
+2025-05-12 14:14:58,423 p=26314 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:14:58,428 p=26314 u=etienne n=ansible INFO| TASK [Demo-Ausgaben via debug] ***************************************************************************************************************************
+2025-05-12 14:14:58,442 p=26314 u=etienne n=ansible INFO| ok: [workstation1] => {
+    "msg": "Hello from Ansible"
+}
+2025-05-12 14:14:58,445 p=26314 u=etienne n=ansible INFO| TASK [Demo-Ausgaben via debug] ***************************************************************************************************************************
+2025-05-12 14:14:58,454 p=26314 u=etienne n=ansible INFO| ok: [workstation1] => {
+    "msg": "Bye from Ansible"
+}
+2025-05-12 14:14:58,455 p=26314 u=etienne n=ansible INFO| PLAY RECAP ***********************************************************************************************************************************************
+2025-05-12 14:14:58,455 p=26314 u=etienne n=ansible INFO| workstation1               : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-05-12 14:15:24,538 p=26520 u=etienne n=ansible INFO| PLAY [all] ***********************************************************************************************************************************************
+2025-05-12 14:15:28,220 p=26520 u=etienne n=ansible INFO| Perform task: TASK: Gathering Facts (N)o/(y)es/(c)ontinue: ***********************************************************************************************
+2025-05-12 14:15:28,220 p=26520 u=etienne n=ansible INFO| TASK [Gathering Facts] ***********************************************************************************************************************************
+2025-05-12 14:15:29,448 p=26520 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:15:31,713 p=26520 u=etienne n=ansible INFO| Perform task: TASK: Demo-Ausgaben via debug (N)o/(y)es/(c)ontinue: ***************************************************************************************
+2025-05-12 14:15:31,714 p=26520 u=etienne n=ansible INFO| TASK [Demo-Ausgaben via debug] ***************************************************************************************************************************
+2025-05-12 14:15:31,730 p=26520 u=etienne n=ansible INFO| ok: [workstation1] => {
+    "msg": "Hello from Ansible"
+}
+2025-05-12 14:15:33,885 p=26520 u=etienne n=ansible INFO| Perform task: TASK: Demo-Ausgaben via debug (N)o/(y)es/(c)ontinue: ***************************************************************************************
+2025-05-12 14:15:33,886 p=26520 u=etienne n=ansible INFO| TASK [Demo-Ausgaben via debug] ***************************************************************************************************************************
+2025-05-12 14:15:33,908 p=26520 u=etienne n=ansible INFO| ok: [workstation1] => {
+    "msg": "Bye from Ansible"
+}
+2025-05-12 14:15:33,909 p=26520 u=etienne n=ansible INFO| PLAY RECAP ***********************************************************************************************************************************************
+2025-05-12 14:15:33,909 p=26520 u=etienne n=ansible INFO| workstation1               : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-05-12 14:15:56,248 p=26763 u=etienne n=ansible INFO| playbook: ./playbooks/hello-ansible.yaml
+2025-05-12 14:15:56,248 p=26763 u=etienne n=ansible INFO|   play #1 (all): all	TAGS: []
+2025-05-12 14:15:56,248 p=26763 u=etienne n=ansible INFO|     tasks:
+      Demo-Ausgaben via debug	TAGS: []
+      Demo-Ausgaben via debug	TAGS: []
+
+2025-05-12 14:18:39,670 p=27723 u=etienne n=ansible ERROR| ERROR! conflicting action statements: debug, tag
+
+The error appears to be in '/home/etienne/projekte/ansible/start/playbooks/hello-ansible.yaml': line 4, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: 'Demo-Ausgaben via debug'
+      ^ here
+
+2025-05-12 14:19:00,840 p=27854 u=etienne n=ansible INFO| PLAY [all] ***********************************************************************************************************************************************
+2025-05-12 14:19:00,843 p=27854 u=etienne n=ansible INFO| TASK [Gathering Facts] ***********************************************************************************************************************************
+2025-05-12 14:19:02,236 p=27854 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:19:02,240 p=27854 u=etienne n=ansible INFO| TASK [Demo-Ausgaben via debug] ***************************************************************************************************************************
+2025-05-12 14:19:02,250 p=27854 u=etienne n=ansible INFO| ok: [workstation1] => {
+    "msg": "Bye from Ansible"
+}
+2025-05-12 14:19:02,251 p=27854 u=etienne n=ansible INFO| PLAY RECAP ***********************************************************************************************************************************************
+2025-05-12 14:19:02,251 p=27854 u=etienne n=ansible INFO| workstation1               : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-05-12 14:23:35,527 p=29483 u=etienne n=ansible INFO| PLAY [Setup Apache HTTP Server on Fedora 42] *************************************************************************************************************
+2025-05-12 14:23:37,915 p=29483 u=etienne n=ansible INFO| Perform task: TASK: Gathering Facts (N)o/(y)es/(c)ontinue: ***********************************************************************************************
+2025-05-12 14:23:37,916 p=29483 u=etienne n=ansible INFO| TASK [Gathering Facts] ***********************************************************************************************************************************
+2025-05-12 14:23:40,964 p=29483 u=etienne n=ansible INFO| fatal: [workstation1]: FAILED! => {"msg": "Incorrect sudo password"}
+2025-05-12 14:23:40,965 p=29483 u=etienne n=ansible INFO| PLAY RECAP ***********************************************************************************************************************************************
+2025-05-12 14:23:40,965 p=29483 u=etienne n=ansible INFO| workstation1               : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-05-12 14:24:04,398 p=29718 u=etienne n=ansible INFO| PLAY [Setup Apache HTTP Server on Fedora 42] *************************************************************************************************************
+2025-05-12 14:24:06,497 p=29718 u=etienne n=ansible INFO| Perform task: TASK: Gathering Facts (N)o/(y)es/(c)ontinue: ***********************************************************************************************
+2025-05-12 14:24:06,498 p=29718 u=etienne n=ansible INFO| TASK [Gathering Facts] ***********************************************************************************************************************************
+2025-05-12 14:24:07,903 p=29718 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:24:09,992 p=29718 u=etienne n=ansible INFO| Perform task: TASK: Ensure Apache (httpd) is installed (N)o/(y)es/(c)ontinue: ****************************************************************************
+2025-05-12 14:24:09,993 p=29718 u=etienne n=ansible INFO| TASK [Ensure Apache (httpd) is installed] ****************************************************************************************************************
+2025-05-12 14:24:14,855 p=29718 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:24:17,316 p=29718 u=etienne n=ansible INFO| Perform task: TASK: Ensure Apache service is enabled and started (N)o/(y)es/(c)ontinue: ******************************************************************
+2025-05-12 14:24:17,317 p=29718 u=etienne n=ansible INFO| TASK [Ensure Apache service is enabled and started] ******************************************************************************************************
+2025-05-12 14:24:18,653 p=29718 u=etienne n=ansible INFO| changed: [workstation1]
+2025-05-12 14:24:21,452 p=29718 u=etienne n=ansible INFO| Perform task: TASK: Open HTTP (port 80) in firewalld (N)o/(y)es/(c)ontinue: ******************************************************************************
+2025-05-12 14:24:21,452 p=29718 u=etienne n=ansible INFO| TASK [Open HTTP (port 80) in firewalld] ******************************************************************************************************************
+2025-05-12 14:24:22,226 p=29718 u=etienne n=ansible INFO| changed: [workstation1]
+2025-05-12 14:24:24,700 p=29718 u=etienne n=ansible INFO| Perform task: TASK: Ensure SELinux allows HTTPD traffic (optional, if SELinux is enforcing) (N)o/(y)es/(c)ontinue: ***************************************
+2025-05-12 14:24:24,701 p=29718 u=etienne n=ansible INFO| TASK [Ensure SELinux allows HTTPD traffic (optional, if SELinux is enforcing)] ***************************************************************************
+2025-05-12 14:24:25,627 p=29718 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:24:25,629 p=29718 u=etienne n=ansible INFO| PLAY RECAP ***********************************************************************************************************************************************
+2025-05-12 14:24:25,630 p=29718 u=etienne n=ansible INFO| workstation1               : ok=5    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-05-12 14:29:04,041 p=31766 u=etienne n=ansible INFO| PLAY [Setup Apache HTTP Server on Fedora 42] *************************************************************************************************************
+2025-05-12 14:29:04,044 p=31766 u=etienne n=ansible INFO| TASK [Gathering Facts] ***********************************************************************************************************************************
+2025-05-12 14:29:05,698 p=31766 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:29:05,702 p=31766 u=etienne n=ansible INFO| TASK [Upload minimal homepage] ***************************************************************************************************************************
+2025-05-12 14:29:06,923 p=31766 u=etienne n=ansible INFO| changed: [workstation1]
+2025-05-12 14:29:06,924 p=31766 u=etienne n=ansible INFO| PLAY RECAP ***********************************************************************************************************************************************
+2025-05-12 14:29:06,925 p=31766 u=etienne n=ansible INFO| workstation1               : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-05-12 14:30:53,216 p=32467 u=etienne n=ansible INFO| PLAY [Setup Apache HTTP Server on Fedora 42] *************************************************************************************************************
+2025-05-12 14:30:53,219 p=32467 u=etienne n=ansible INFO| TASK [Gathering Facts] ***********************************************************************************************************************************
+2025-05-12 14:30:54,766 p=32467 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:30:54,769 p=32467 u=etienne n=ansible INFO| TASK [Ensure Apache (httpd) is installed] ****************************************************************************************************************
+2025-05-12 14:30:56,267 p=32467 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:30:56,274 p=32467 u=etienne n=ansible INFO| TASK [Ensure Apache service is enabled and started] ******************************************************************************************************
+2025-05-12 14:30:57,196 p=32467 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:30:57,206 p=32467 u=etienne n=ansible INFO| TASK [Open HTTP (port 80) in firewalld] ******************************************************************************************************************
+2025-05-12 14:30:58,007 p=32467 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:30:58,017 p=32467 u=etienne n=ansible INFO| TASK [Ensure SELinux allows HTTPD traffic (optional, if SELinux is enforcing)] ***************************************************************************
+2025-05-12 14:30:58,877 p=32467 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:30:58,887 p=32467 u=etienne n=ansible INFO| TASK [Upload minimal homepage] ***************************************************************************************************************************
+2025-05-12 14:30:59,982 p=32467 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:30:59,984 p=32467 u=etienne n=ansible INFO| PLAY RECAP ***********************************************************************************************************************************************
+2025-05-12 14:30:59,985 p=32467 u=etienne n=ansible INFO| workstation1               : ok=6    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-05-12 14:31:25,666 p=32751 u=etienne n=ansible INFO| PLAY [Setup Apache HTTP Server on Fedora 42] *************************************************************************************************************
+2025-05-12 14:31:25,670 p=32751 u=etienne n=ansible INFO| TASK [Gathering Facts] ***********************************************************************************************************************************
+2025-05-12 14:31:27,112 p=32751 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:31:27,120 p=32751 u=etienne n=ansible INFO| TASK [Ensure Apache (httpd) is installed] ****************************************************************************************************************
+2025-05-12 14:31:28,629 p=32751 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:31:28,636 p=32751 u=etienne n=ansible INFO| TASK [Ensure Apache service is enabled and started] ******************************************************************************************************
+2025-05-12 14:31:29,552 p=32751 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:31:29,556 p=32751 u=etienne n=ansible INFO| TASK [Open HTTP (port 80) in firewalld] ******************************************************************************************************************
+2025-05-12 14:31:30,368 p=32751 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:31:30,374 p=32751 u=etienne n=ansible INFO| TASK [Ensure SELinux allows HTTPD traffic (optional, if SELinux is enforcing)] ***************************************************************************
+2025-05-12 14:31:31,184 p=32751 u=etienne n=ansible INFO| ok: [workstation1]
+2025-05-12 14:31:31,191 p=32751 u=etienne n=ansible INFO| TASK [Upload minimal homepage] ***************************************************************************************************************************
+2025-05-12 14:31:32,771 p=32751 u=etienne n=ansible INFO| [0;31m--- before: /var/www/html/index.html[0m
+[0;31m[0m[0;32m+++ after: /var/www/html/index.html[0m
+[0;32m[0m[0;36m@@ -5,6 +5,6 @@[0m
+[0;36m[0m     <title>Test</title>
+   </head>
+   <body>
+[0;31m-    <h1>Welcome!</h1>[0m
+[0;31m[0m[0;32m+    <h1>Welcome to Apache on Fedora!</h1>[0m
+[0;32m[0m   </body>
+ <html>
+
+
+2025-05-12 14:31:32,771 p=32751 u=etienne n=ansible INFO| changed: [workstation1]
+2025-05-12 14:31:32,772 p=32751 u=etienne n=ansible INFO| PLAY RECAP ***********************************************************************************************************************************************
+2025-05-12 14:31:32,772 p=32751 u=etienne n=ansible INFO| workstation1               : ok=6    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
